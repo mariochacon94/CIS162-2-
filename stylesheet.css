@@ -1,0 +1,211 @@
+
+
+/* HTML Styles */
+
+html {
+    background-color: rgb(44, 107, 243);  
+    color: rgb(51, 51, 51);
+    font-size: 12px;
+ }
+
+ /* Increase the font size of the <h1> element */
+ .header h1 {
+    font-size: 40px;
+  }
+
+   /* Article  Styles */
+ .section {
+    align-items: center;
+    display: flex;
+    width: 100%;
+  }
+  
+  .section>div {
+    width: 100%;
+  }
+  
+  .content-right {
+    margin: auto;
+  }
+  
+  img {
+    display: block;
+    margin: auto;
+    width: 100%;
+  margin-left: 10%;
+  margin-bottom: -2rem;
+  border: silver;
+  border-radius: 50%;
+  }
+  
+  @media (max-width: 500px) {
+    .section {
+      display: block;
+    }
+    .section>div {
+      width: auto;
+    }
+  }
+
+   /* Section Styles */
+ 
+ .primary{
+    display: inline-block;
+    width:48%;
+  }
+  .secondary {
+    display: inline-block;
+    width:48%;
+  }
+
+  /* Body Styles */
+
+body {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 960px;
+    min-width: 640px;
+    width: 100%;
+    border-left: 50px solid rgb(0, 0, 0);
+    border-right: 50px solid rgb(0, 0, 0);
+    border-radius: 36px;
+    border-color: black;
+ }
+
+ body {
+    color: rgb(240, 241, 247);
+    background: linear-gradient(345deg, rgb(58, 34, 238),
+    rgb(21, 35, 21) 80%);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+body {
+    
+}
+ 
+   /* Horizontal Navigation Styles */
+ 
+ .navbar {
+    overflow: hidden; /* Hide overflow */
+    background-color: #1d71f0; /* Dark background color */
+  }
+
+  .navbar{
+    background: linear-gradient(345deg, rgb(58, 34, 238),
+    rgb(21, 35, 21) 80%);
+
+  }
+
+  /* Style the navigation bar links */
+  .navbar a {
+    float: left; /* Make sure that the links stay side-by-side */
+    display: block; /* Change the display to block, for responsive reasons (see below) */
+    color: white; /* White text color */
+    text-align: center; /* Center the text */
+    padding: 14px 20px; /* Add some padding */
+    text-decoration: none; /* Remove underline */
+  }
+  
+  /* Right-aligned link */
+  .navbar a.right {
+    float: right; /* Float a link to the right */
+  }
+  
+  /* Change color on hover/mouse-over */
+  .navbar a:hover {
+    background-color: #ddd; /* Grey background color */
+    color: black; /* Black text color */
+  }
+
+   /* Left Column Styles */
+ 
+ section#leftColumn {
+   
+    clear: left;
+    float: left;
+    padding: 1.5em;
+    width: 33%;
+ }
+ 
+  /* Right Column Styles */
+ 
+  section#rightColumn {
+    float: left;
+    width: 67%;
+ }
+ 
+ section#rightColumn img {
+    display: block;
+    width: 100%;
+ }
+ 
+ section#rightColumn > nav.horizontalNavigation li {
+    width: 25%;
+ }
+ 
+ 
+ h1 {font-size: 2.5em;}
+h2 {font-size: 2.5em;}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 0.1em;
+    font-weight: bolder;
+    text-decoration: double;
+    background: linear-gradient(345deg, rgb(14, 1, 100),
+    rgb(21, 35, 21) 80%);
+    
+}
+
+h2 {
+    font-family: cursive;
+    font-weight: bold;
+}
+
+
+
+
+
+.section {
+    align-items: center;
+    display: flex;
+    width: 100%;
+  }
+  
+  .section>div {
+    width: 50%;
+  }
+  
+  .content-right {
+    margin: auto;
+  }
+  
+  img {
+    display: block;
+    margin: auto;
+  }
+
+ /* Footer Styles */
+ 
+ footer {
+    background-color: rgb(97, 97, 236);
+    color: white;	
+    display: block;
+    padding: 50px;
+}
+
+
+footer {
+   background: linear-gradient(345deg, rgb(58, 34, 238),
+                                          rgb(21, 35, 21) 80%);
+}
+
+.rightColumn {
+border: 2px solid red;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+ 
+  
